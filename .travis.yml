@@ -8,3 +8,7 @@ script:
   - npm run build
   - npm test
   - npm run flow
+# blocklist master branch as it's used for github page
+branches:
+  except:
+  - master
