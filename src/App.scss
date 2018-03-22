@@ -1,0 +1,9 @@
+@import "styles/colors.scss";
+
+.app {
+  background-color: $grey;
+
+  .name {
+    color: $blue;
+  }
+}
