@@ -21,4 +21,7 @@ body {
     width: 1260px;
   }
 
+  @media print {
+    width: 90%;
+  }
 }

@@ -152,3 +152,8 @@ body {
     width: 1260px;
   }
 }
+@media print {
+  .container {
+    width: 90%;
+  }
+}
