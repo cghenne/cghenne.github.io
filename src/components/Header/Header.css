@@ -128,27 +128,33 @@ table {
   border-spacing: 0;
 }
 
-body {
-  background-color: #fdfdfd;
+header {
+  text-align: center;
+  color: #242021;
+  font-family: 'Open Sans', sans-serif !important;
 }
-
-.container {
-  margin: 20px auto;
-  width: 280px;
-  padding: 20px;
+header h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
 }
 @media (min-width: 46.25em) {
-  .container {
-    width: 700px;
+  header h1 {
+    font-size: 64px;
   }
 }
-@media (min-width: 61.25em) {
-  .container {
-    width: 940px;
+header h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+@media (min-width: 46.25em) {
+  header h2 {
+    font-size: 24px;
   }
 }
-@media (min-width: 81.25em) {
-  .container {
-    width: 1260px;
-  }
+header .secondary {
+  color: #58595a;
 }

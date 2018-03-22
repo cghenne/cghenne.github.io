@@ -1,9 +1,24 @@
-@import "styles/colors.scss";
+@import 'styles/utils.scss';
 
-.app {
-  background-color: $grey;
+body {
+  background-color: $color-background;
+}
 
-  .name {
-    color: $blue;
+.container {
+  margin: $spacing auto;
+  width: 280px;
+  padding: $spacing;
+
+  @include mq($from: tablet) {
+    width: 700px;
   }
+
+  @include mq($from: desktop) {
+    width: 940px;
+  }
+
+  @include mq($from: wide) {
+    width: 1260px;
+  }
+
 }

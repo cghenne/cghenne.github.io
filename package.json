@@ -17,7 +17,8 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
-    "react-test-renderer": "^16.2.0"
+    "react-test-renderer": "^16.2.0",
+    "sass-mq": "^4.0.2"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -26,6 +27,13 @@
     ]
   },
   "jest": {
+    "collectCoverageFrom" : [
+      "src/**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!src/setupTest.js",
+      "!src/registerServiceWorker.js",
+      "!src/index.js"
+    ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]

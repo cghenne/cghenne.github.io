@@ -1,0 +1,33 @@
+@import 'styles/utils.scss';
+
+header {
+  text-align: center;
+  color: $color-primary;
+  font-family: $font-family-title !important;
+
+  h1 {
+    font-size: $font-size-xx-large;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: $spacing;
+
+    @include mq($from: tablet) {
+      font-size: $font-size-xxx-large;
+    }
+  }
+
+  h2 {
+    font-size: $font-size-regular;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: $spacing;
+
+    @include mq($from: tablet) {
+      font-size: $font-size-large;
+    }
+  }
+
+  .secondary {
+    color: $color-secondary;
+  }
+}

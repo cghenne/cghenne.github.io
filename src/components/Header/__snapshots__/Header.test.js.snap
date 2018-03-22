@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render without crashing 1`] = `
+<header>
+  <h1>
+    <span
+      className="secondary"
+    >
+      Cathleen
+    </span>
+     Ghenne
+  </h1>
+  <h2>
+    <span
+      className="secondary"
+    >
+      Front-End
+    </span>
+     Engineer
+  </h2>
+</header>
+`;

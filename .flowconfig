@@ -1,11 +1,5 @@
 [ignore]
-
-[include]
-
-[libs]
-
-[lints]
-
-[options]
-
-[strict]
+.*/node_modules/*
+.*\.test\.js
+.*/src/setupTest.js
+.*/src/registerServiceWorker.js

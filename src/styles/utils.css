@@ -127,28 +127,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-body {
-  background-color: #fdfdfd;
-}
-
-.container {
-  margin: 20px auto;
-  width: 280px;
-  padding: 20px;
-}
-@media (min-width: 46.25em) {
-  .container {
-    width: 700px;
-  }
-}
-@media (min-width: 61.25em) {
-  .container {
-    width: 940px;
-  }
-}
-@media (min-width: 81.25em) {
-  .container {
-    width: 1260px;
-  }
-}

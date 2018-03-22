@@ -2,12 +2,8 @@
 
 exports[`App should render without crashing 1`] = `
 <div
-  className="app"
+  className="container"
 >
-  <span
-    className="name"
-  >
-    Cathleen Ghenne
-  </span>
+  <Header />
 </div>
 `;
