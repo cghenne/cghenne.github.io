@@ -1,0 +1,10 @@
+@import 'styles/utils.scss';
+
+.interests {
+  grid-area: interests;
+
+  .bold {
+    font-weight: $font-weight-bold;
+  }
+
+}

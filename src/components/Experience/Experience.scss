@@ -1,0 +1,47 @@
+@import 'styles/utils.scss';
+
+.experience {
+  grid-area: experience;
+
+  h3 {
+    text-align: right;
+  }
+}
+
+.job {
+  text-align: right;
+  margin-bottom: $spacing * 2;
+
+  .dates {
+    margin-bottom: $spacing / 2;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-small;
+    text-transform: uppercase;
+    color: $color-secondary;
+  }
+
+  .details {
+    grid-area: details;
+
+    h4 {
+      font-weight: $font-weight-bold;
+      font-size: $font-size-regular-plus;
+    }
+
+    h5 {
+      font-style: italic;
+      font-size: $font-size-small;
+    }
+
+    p {
+      margin-top: $spacing;
+      text-align: justify;
+    }
+
+    .bold {
+      font-weight: $font-weight-bold;
+    }
+
+  }
+
+}

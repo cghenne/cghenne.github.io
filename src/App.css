@@ -136,10 +136,17 @@ body {
   margin: 20px auto;
   width: 280px;
   padding: 20px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 'header' 'hello' 'sayHello' 'skills' 'experience' 'education' 'languages' 'interests' 'references';
 }
 @media (min-width: 46.25em) {
   .container {
     width: 700px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas: 'header header header header header header header' 'hello hello hello divider sayHello sayHello sayHello' 'experience experience experience divider skills skills skills' 'experience experience experience divider education education education' 'experience experience experience divider languages languages languages' 'experience experience experience divider interests interests interests' 'experience experience experience divider references references references' 'experience experience experience divider . . .';
   }
 }
 @media (min-width: 61.25em) {
@@ -147,13 +154,28 @@ body {
     width: 940px;
   }
 }
-@media (min-width: 81.25em) {
-  .container {
-    width: 1260px;
-  }
-}
 @media print {
   .container {
     width: 90%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas: 'header header header header header header header' 'hello hello hello divider sayHello sayHello sayHello' 'experience experience experience divider skills skills skills' 'experience experience experience divider education education education' 'experience experience experience divider languages languages languages' 'experience experience experience divider interests interests interests' 'experience experience experience divider references references references' 'experience experience experience divider . . .';
   }
+}
+
+.box {
+  color: #242021;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding-bottom: 40px;
+}
+.box h3 {
+  color: #58595a;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
 }

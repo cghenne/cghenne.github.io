@@ -27,7 +27,7 @@
     ]
   },
   "jest": {
-    "collectCoverageFrom" : [
+    "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!**/node_modules/**",
       "!src/setupTest.js",

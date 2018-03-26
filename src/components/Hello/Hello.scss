@@ -1,0 +1,9 @@
+@import 'styles/utils.scss';
+
+.hello {
+  grid-area: hello;
+
+  h3 {
+    text-align: right;
+  }
+}

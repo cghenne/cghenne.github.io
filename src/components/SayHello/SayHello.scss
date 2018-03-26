@@ -1,0 +1,30 @@
+@import 'styles/utils.scss';
+
+.say-hello {
+  grid-area: sayHello;
+}
+
+.contact {
+  display: block;
+  margin-bottom: $spacing / 2;
+
+  color: $color-primary;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.5s;
+
+  img {
+    width: 25px;
+    height: 25px;
+    margin-right: $spacing;
+  }
+
+  &:hover, &:focus {
+    opacity: 0.6;
+  }
+
+  span {
+    vertical-align: top;
+    line-height: 29px;
+  }
+}

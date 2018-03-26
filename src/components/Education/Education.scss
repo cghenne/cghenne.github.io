@@ -1,0 +1,39 @@
+@import 'styles/utils.scss';
+
+.education {
+  grid-area: education;
+}
+
+.school {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "year year year . details details details details details details details details";
+
+  margin-bottom: $spacing;
+
+  .year {
+    grid-area: year;
+    color: $color-secondary;
+  }
+
+  .details {
+    grid-area: details;
+
+    h4 {
+      font-weight: $font-weight-bold;
+    }
+
+    h5 {
+      font-style: italic;
+      font-size: $font-size-small;
+    }
+
+    p {
+      margin-top: $spacing;
+      text-align: justify;
+    }
+
+  }
+}

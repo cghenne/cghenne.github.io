@@ -1,0 +1,27 @@
+@import 'styles/utils.scss';
+
+.skills {
+  grid-area: skills;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "title title title . list list list list list list list list";
+
+  margin-bottom: $spacing;
+
+  h4 {
+    grid-area: title;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    font-size: $font-size-small;
+    color: $color-secondary;
+  }
+
+  ul {
+    grid-area: list;
+  }
+}

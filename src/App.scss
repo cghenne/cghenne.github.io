@@ -9,19 +9,69 @@ body {
   width: 280px;
   padding: $spacing;
 
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header"
+    "hello"
+    "sayHello"
+    "skills"
+    "experience"
+    "education"
+    "languages"
+    "interests"
+    "references";
+
   @include mq($from: tablet) {
     width: 700px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas:
+      "header header header header header header header"
+      "hello hello hello divider sayHello sayHello sayHello"
+      "experience experience experience divider skills skills skills"
+      "experience experience experience divider education education education"
+      "experience experience experience divider languages languages languages"
+      "experience experience experience divider interests interests interests"
+      "experience experience experience divider references references references"
+      "experience experience experience divider . . .";
   }
 
   @include mq($from: desktop) {
     width: 940px;
   }
 
-  @include mq($from: wide) {
-    width: 1260px;
-  }
-
   @media print {
     width: 90%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas:
+      "header header header header header header header"
+      "hello hello hello divider sayHello sayHello sayHello"
+      "experience experience experience divider skills skills skills"
+      "experience experience experience divider education education education"
+      "experience experience experience divider languages languages languages"
+      "experience experience experience divider interests interests interests"
+      "experience experience experience divider references references references"
+      "experience experience experience divider . . .";
+  }
+}
+
+.box {
+  color: $color-primary;
+  font-size: $font-size-regular;
+  font-family: $font-family-text;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding-bottom: $spacing * 2;
+
+  h3 {
+    color: $color-secondary;
+    font-family: $font-family-title;
+    margin-bottom: $spacing;
+    font-size: $font-size-large;
+    text-transform: uppercase;
+    font-weight: $font-weight-light;
   }
 }

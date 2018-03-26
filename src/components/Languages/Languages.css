@@ -128,35 +128,9 @@ table {
   border-spacing: 0;
 }
 
-header {
-  text-align: center;
-  color: #242021;
-  font-family: 'Open Sans', sans-serif !important;
-  margin-bottom: 40px !important;
-  grid-area: header;
+.languages {
+  grid-area: languages;
 }
-header h1 {
-  font-size: 48px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-bottom: 20px;
-}
-@media (min-width: 46.25em) {
-  header h1 {
-    font-size: 64px;
-  }
-}
-header h2 {
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-bottom: 20px;
-}
-@media (min-width: 46.25em) {
-  header h2 {
-    font-size: 24px;
-  }
-}
-header .secondary {
-  color: #58595a;
+.languages .bold {
+  font-weight: 700;
 }

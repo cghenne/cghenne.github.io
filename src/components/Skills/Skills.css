@@ -128,35 +128,24 @@ table {
   border-spacing: 0;
 }
 
-header {
-  text-align: center;
-  color: #242021;
-  font-family: 'Open Sans', sans-serif !important;
-  margin-bottom: 40px !important;
-  grid-area: header;
+.skills {
+  grid-area: skills;
 }
-header h1 {
-  font-size: 48px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 'title title title . list list list list list list list list';
   margin-bottom: 20px;
 }
-@media (min-width: 46.25em) {
-  header h1 {
-    font-size: 64px;
-  }
-}
-header h2 {
-  font-size: 16px;
+.skill h4 {
+  grid-area: title;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-bottom: 20px;
-}
-@media (min-width: 46.25em) {
-  header h2 {
-    font-size: 24px;
-  }
-}
-header .secondary {
+  font-size: 14px;
   color: #58595a;
+}
+.skill ul {
+  grid-area: list;
 }
