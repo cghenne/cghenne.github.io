@@ -131,6 +131,11 @@ table {
 body {
   background-color: #fdfdfd;
 }
+@media print {
+  body {
+    background-color: transparent;
+  }
+}
 
 .container {
   margin: 20px auto;

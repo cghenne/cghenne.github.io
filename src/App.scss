@@ -2,6 +2,10 @@
 
 body {
   background-color: $color-background;
+
+  @media print {
+    background-color: transparent;
+  }
 }
 
 .container {

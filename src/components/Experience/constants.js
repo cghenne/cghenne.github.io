@@ -13,7 +13,7 @@ export const jobs = [
   },
   {
     start_date: 'July 2016',
-    end_date: 'December 2016',
+    end_date: 'December 2017',
     position: 'Lead Front-End Engineer',
     company: 'LifeWorks',
     location: 'London, UK',
