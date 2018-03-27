@@ -18,7 +18,7 @@ type State = {
   isPrintMode: boolean
 };
 
-class App extends Component {
+class App extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
@@ -31,8 +31,6 @@ class App extends Component {
     window.onbeforeprint = () => this.setState({ isPrintMode: true });
     window.onafterprint = () => this.setState({ isPrintMode: false });
   }
-
-  state: State;
 
   render() {
     const { isPrintMode } = this.state;
