@@ -6,7 +6,7 @@ export const skills = [
   },
   {
     type: 'frameworks-libraries',
-    label: 'Frameworks & Libraries',
+    label: 'Frameworks / Libraries',
     list: [
       'React',
       'Redux',

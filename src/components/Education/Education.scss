@@ -2,6 +2,11 @@
 
 .education {
   grid-area: education;
+
+  // pages breaks are not working with css grid so I will add some margin manually instead
+  @media print {
+    margin-top: 200px;    
+  }
 }
 
 .school {
@@ -20,6 +25,12 @@
       "year year year . details details details details details details details details";
   }
 
+  @media print {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      "year year year . details details details details details details details details";
+  }
+
   &:last-child {
     margin-bottom: 0;
   }
@@ -28,6 +39,10 @@
     grid-area: year;
     color: $color-secondary;
     margin-bottom: $spacing / 2;
+
+    @media print {
+      font-size: $font-size-x-small;
+    }
 
     @include mq($from: desktop) {
       margin-bottom: 0;
@@ -39,6 +54,10 @@
 
     h4 {
       font-weight: $font-weight-bold;
+
+      @media print {
+        font-weight: $font-weight-regular;
+      }
     }
 
     h5 {

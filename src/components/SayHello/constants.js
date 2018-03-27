@@ -38,5 +38,6 @@ export type ContactT = {
   icon: string,
   link: string,
   url: string,
-  show: boolean
+  show: boolean,
+  isPrivate: booleam
 };

@@ -47,17 +47,20 @@ body {
   }
 
   @media print {
+    padding: 0 $spacing;
     width: 90%;
+		height: auto;
+		margin: auto;
     grid-template-columns: repeat(7, 1fr);
     grid-template-areas:
       "header header header header header header header"
-      "hello hello hello divider sayHello sayHello sayHello"
-      "experience experience experience divider skills skills skills"
-      "experience experience experience divider education education education"
-      "experience experience experience divider languages languages languages"
-      "experience experience experience divider interests interests interests"
-      "experience experience experience divider references references references"
-      "experience experience experience divider . . .";
+      "hello hello hello printDivider sayHello sayHello sayHello"
+      "experience experience experience printDivider skills skills skills"
+      "experience experience experience printDivider education education education"
+      "experience experience experience printDivider languages languages languages"
+      "experience experience experience printDivider interests interests interests"
+      "experience experience experience printDivider references references references"
+      "experience experience experience printDivider . . .";
   }
 }
 
@@ -70,6 +73,18 @@ body {
   text-align: justify;
   padding-bottom: $spacing * 2;
 
+  @media print {
+    font-size: $font-size-small;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: $color-primary-print;
+    padding-bottom: $spacing * 1.5;
+
+    p {
+      line-height: 15px;
+    }
+  }
+
   h3 {
     color: $color-secondary;
     font-family: $font-family-title;
@@ -77,5 +92,9 @@ body {
     font-size: $font-size-large;
     text-transform: uppercase;
     font-weight: $font-weight-light;
+
+    @media print {
+      font-size: $font-size-x-regular;
+    }
   }
 }

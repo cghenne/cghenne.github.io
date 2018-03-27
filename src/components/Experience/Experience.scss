@@ -2,8 +2,15 @@
 
 .experience {
   grid-area: experience;
+  padding-bottom: 0 !important;
 
   @include mq($from: tablet) {
+    h3 {
+      text-align: right;
+    }
+  }
+
+  @media print {
     h3 {
       text-align: right;
     }
@@ -21,12 +28,22 @@
     text-align: right;
   }
 
+  @media print {
+    text-align: right;
+    margin-bottom: $spacing;
+  }
+
   .dates {
     margin-bottom: $spacing / 2;
     font-weight: $font-weight-bold;
     font-size: $font-size-small;
     text-transform: uppercase;
     color: $color-secondary;
+
+    @media print {
+      font-size: $font-size-x-small;
+      font-weight: $font-weight-regular;
+    }
   }
 
   .details {
@@ -34,12 +51,20 @@
 
     h4 {
       font-weight: $font-weight-bold;
-      font-size: $font-size-regular-plus;
+      font-size: $font-size-x-regular;
+
+      @media print {
+        font-size: $font-size-small;
+      }
     }
 
     h5 {
       font-style: italic;
       font-size: $font-size-small;
+
+      @media print {
+        font-size: $font-size-x-small;
+      }
     }
 
     p {
@@ -51,6 +76,12 @@
       font-weight: $font-weight-bold;
     }
 
+  }
+
+  &.print-margin {
+    @media print {
+      padding-top: 109px;
+    }
   }
 
 }

@@ -12,10 +12,11 @@ const Job = ({
   company,
   location,
   description,
-  tech_stack
+  tech_stack,
+  print_margin
 }: Props) => {
   return (
-    <div className="job">
+    <div className={`job ${print_margin ? 'print-margin' : ''}`}>
       <div className="dates">
         {start_date} - {end_date ? end_date : 'Present'}
       </div>

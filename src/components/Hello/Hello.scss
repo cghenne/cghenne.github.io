@@ -8,4 +8,10 @@
       text-align: right;
     }
   }
+
+  @media print {
+    h3 {
+      text-align: right;
+    }
+  }
 }

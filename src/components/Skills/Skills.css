@@ -148,6 +148,12 @@ table {
     grid-template-areas: 'title title title . list list list list list list list list';
   }
 }
+@media print {
+  .skill {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 'title title title . list list list list list list list list';
+  }
+}
 .skill h4 {
   grid-area: title;
   font-weight: 700;
@@ -159,6 +165,12 @@ table {
 @media (min-width: 61.25em) {
   .skill h4 {
     margin-bottom: 0;
+  }
+}
+@media print {
+  .skill h4 {
+    font-size: 12px;
+    font-weight: 400;
   }
 }
 .skill ul {

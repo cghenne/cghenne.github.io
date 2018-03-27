@@ -131,6 +131,11 @@ table {
 .education {
   grid-area: education;
 }
+@media print {
+  .education {
+    margin-top: 200px;
+  }
+}
 
 .school {
   display: grid;
@@ -145,6 +150,12 @@ table {
     grid-template-areas: 'year year year . details details details details details details details details';
   }
 }
+@media print {
+  .school {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 'year year year . details details details details details details details details';
+  }
+}
 .school:last-child {
   margin-bottom: 0;
 }
@@ -152,6 +163,11 @@ table {
   grid-area: year;
   color: #58595a;
   margin-bottom: 10px;
+}
+@media print {
+  .school .year {
+    font-size: 12px;
+  }
 }
 @media (min-width: 61.25em) {
   .school .year {
@@ -163,6 +179,11 @@ table {
 }
 .school .details h4 {
   font-weight: 700;
+}
+@media print {
+  .school .details h4 {
+    font-weight: 400;
+  }
 }
 .school .details h5 {
   font-style: italic;

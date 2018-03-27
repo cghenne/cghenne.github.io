@@ -136,3 +136,8 @@ table {
     text-align: right;
   }
 }
+@media print {
+  .hello h3 {
+    text-align: right;
+  }
+}

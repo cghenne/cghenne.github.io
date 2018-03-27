@@ -1,0 +1,62 @@
+@import 'styles/utils.scss';
+
+.print-divider {
+  display: none;
+  grid-area: printDivider;
+  text-align: center;
+  position: relative;
+
+  .print-divider-page-1, .print-divider-page-2 {
+    line-height: 8px;
+  }
+
+  .dot, .triangle-up, .triangle-down {
+    fill: rgba($color-secondary, 0.7);
+  }
+
+  .triangle {
+    margin-top: $spacing;
+  }
+
+  .continued {
+    text-transform: uppercase;
+    color: $color-secondary;
+    font-size: $font-size-regular;
+    font-family: $font-family-title;
+    margin-bottom: $spacing;
+    font-weight: $font-weight-light;
+    letter-spacing: 2px;
+  }
+
+  .name-repeat {
+    position: absolute;
+    top: 920px;
+    left: -43px;
+    width: 198px;
+    font-family: $font-family-title;
+    font-weight: $font-weight-light;
+    font-size: $font-size-regular;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    .secondary {
+      color: $color-secondary;
+    }
+  }
+
+  .title-repeat {
+    position: absolute;
+    top: 964px;
+    left: -102px;
+    color: $color-secondary;
+    font-family: $font-family-title;
+    margin-bottom: $spacing;
+    text-transform: uppercase;
+    font-weight: $font-weight-light;
+    font-size: $font-size-x-regular;
+  }
+
+  @media print {
+    display: block;
+  }
+}

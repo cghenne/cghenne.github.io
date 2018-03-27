@@ -6,12 +6,17 @@ type Props = {
   icon: string,
   link: string,
   url: string,
-  type: string
+  type: string,
+  isPrivate: boolean
 };
 
-const Contact = ({ icon, link, url, type }: Props) => {
+const Contact = ({ icon, link, url, type, isPrivate }: Props) => {
   return (
-    <a href={url} target="_blank" className="contact">
+    <a
+      href={url}
+      target="_blank"
+      className={`contact ${isPrivate ? 'private' : ''}`}
+    >
       <img src={icon} alt={type} />
       <span>{link}</span>
     </a>

@@ -24,6 +24,12 @@
       "title title title . list list list list list list list list";
   }
 
+  @media print {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      "title title title . list list list list list list list list";
+  }
+
   h4 {
     grid-area: title;
     font-weight: $font-weight-bold;
@@ -34,6 +40,11 @@
 
     @include mq($from: desktop) {
       margin-bottom: 0;
+    }
+
+    @media print {
+      font-size: $font-size-x-small;
+      font-weight: $font-weight-regular;
     }
   }
 

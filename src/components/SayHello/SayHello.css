@@ -145,6 +145,12 @@ table {
   height: 25px;
   margin-right: 20px;
 }
+@media print {
+  .contact img {
+    width: 15px;
+    height: 15px;
+  }
+}
 .contact:hover,
 .contact:focus {
   opacity: 0.6;
@@ -152,4 +158,17 @@ table {
 .contact span {
   vertical-align: top;
   line-height: 29px;
+}
+@media print {
+  .contact span {
+    line-height: 15px;
+  }
+}
+.contact.private {
+  display: none;
+}
+@media print {
+  .contact.private {
+    display: block;
+  }
 }

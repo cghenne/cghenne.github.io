@@ -130,8 +130,14 @@ table {
 
 .experience {
   grid-area: experience;
+  padding-bottom: 0 !important;
 }
 @media (min-width: 46.25em) {
+  .experience h3 {
+    text-align: right;
+  }
+}
+@media print {
   .experience h3 {
     text-align: right;
   }
@@ -148,12 +154,24 @@ table {
     text-align: right;
   }
 }
+@media print {
+  .job {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+}
 .job .dates {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   color: #58595a;
+}
+@media print {
+  .job .dates {
+    font-size: 12px;
+    font-weight: 400;
+  }
 }
 .job .details {
   grid-area: details;
@@ -162,9 +180,19 @@ table {
   font-weight: 700;
   font-size: 18px;
 }
+@media print {
+  .job .details h4 {
+    font-size: 14px;
+  }
+}
 .job .details h5 {
   font-style: italic;
   font-size: 14px;
+}
+@media print {
+  .job .details h5 {
+    font-size: 12px;
+  }
 }
 .job .details p {
   margin-top: 20px;
@@ -172,4 +200,9 @@ table {
 }
 .job .details .bold {
   font-weight: 700;
+}
+@media print {
+  .job.print-margin {
+    padding-top: 109px;
+  }
 }

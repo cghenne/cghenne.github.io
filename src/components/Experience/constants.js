@@ -46,7 +46,8 @@ export const jobs = [
       agencies and brands. We designed and implemented promotional web
       sites directly with brands and worked closely with advertising
       and marketing agencies.`,
-    tech_stack: 'HTML, CSS, JavaScript, AngularJS, ColdFusion, PHP, Wordpress'
+    tech_stack: 'HTML, CSS, JavaScript, AngularJS, ColdFusion, PHP, Wordpress',
+    print_margin: true
   },
   {
     start_date: 'November 2011',
@@ -97,5 +98,6 @@ export type JobT = {
   company: string,
   location: string,
   description: ?string,
-  tech_stack: ?string
+  tech_stack: ?string,
+  print_margin?: boolean
 };

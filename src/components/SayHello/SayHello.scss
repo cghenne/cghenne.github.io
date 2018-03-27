@@ -17,6 +17,11 @@
     width: 25px;
     height: 25px;
     margin-right: $spacing;
+
+    @media print {
+      width: 15px;
+      height: 15px;
+    }
   }
 
   &:hover, &:focus {
@@ -26,5 +31,17 @@
   span {
     vertical-align: top;
     line-height: 29px;
+
+    @media print {
+      line-height: 15px;
+    }
+  }
+
+  &.private {
+    display: none;
+
+    @media print {
+      display: block;
+    }
   }
 }

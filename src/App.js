@@ -1,5 +1,5 @@
 // @flow
-import React from 'react';
+import React, { Component } from 'react';
 import Header from './components/Header/Header';
 import Hello from './components/Hello/Hello';
 import SayHello from './components/SayHello/SayHello';
@@ -10,24 +10,50 @@ import Languages from './components/Languages/Languages';
 import Interests from './components/Interests/Interests';
 import References from './components/References/References';
 import Divider from './components/Divider/Divider';
+import PrintDivider from './components/PrintDivider/PrintDivider';
 import './App.css';
 
-const App = () => {
-  return (
-    <div className="container">
-      <Header />
-      <Hello />
-      <SayHello showPrivateDetails={process.env.NODE_ENV !== 'production'} />
-      <Experience />
-      <Skills />
-      <Education />
-      <Languages />
-      <Interests />
-      <References />
-      <Divider />
-    </div>
-  );
+type Props = {};
+type State = {
+  isPrintMode: boolean
 };
+
+class App extends Component {
+  constructor(props: Props) {
+    super(props);
+
+    this.state = {
+      isPrintMode: false
+    };
+
+    // this only works in Chrome
+    // but I'm the only one using this features so I've decided it was enough support
+    window.onbeforeprint = () => this.setState({ isPrintMode: true });
+    window.onafterprint = () => this.setState({ isPrintMode: false });
+  }
+
+  state: State;
+
+  render() {
+    const { isPrintMode } = this.state;
+
+    return (
+      <div className="container">
+        <Header />
+        <Hello />
+        <SayHello showPrivateDetails={isPrintMode} />
+        <Experience />
+        <Skills />
+        <Education />
+        <Languages />
+        <Interests />
+        <References />
+        <Divider />
+        <PrintDivider />
+      </div>
+    );
+  }
+}
 
 App.displayName = 'App';
 
