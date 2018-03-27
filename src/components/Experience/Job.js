@@ -21,7 +21,8 @@ const Job = ({
       </div>
       <div className="details">
         <h4>{position}</h4>
-        <h5>{`${company}, ${location}`}</h5>
+        <h5>{company}</h5>
+        <h5>{location}</h5>
 
         {description && <p>{description}</p>}
         {tech_stack && (

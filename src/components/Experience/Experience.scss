@@ -3,14 +3,23 @@
 .experience {
   grid-area: experience;
 
-  h3 {
-    text-align: right;
+  @include mq($from: tablet) {
+    h3 {
+      text-align: right;
+    }
   }
 }
 
 .job {
-  text-align: right;
   margin-bottom: $spacing * 2;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include mq($from: tablet) {
+    text-align: right;
+  }
 
   .dates {
     margin-bottom: $spacing / 2;

@@ -131,13 +131,22 @@ table {
 .experience {
   grid-area: experience;
 }
-.experience h3 {
-  text-align: right;
+@media (min-width: 46.25em) {
+  .experience h3 {
+    text-align: right;
+  }
 }
 
 .job {
-  text-align: right;
   margin-bottom: 40px;
+}
+.job:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 46.25em) {
+  .job {
+    text-align: right;
+  }
 }
 .job .dates {
   margin-bottom: 10px;

@@ -6,12 +6,23 @@
 
 .skill {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-    "title title title . list list list list list list list list";
+    "title"
+    "list";
 
   margin-bottom: $spacing;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include mq($from: desktop) {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      "title title title . list list list list list list list list";
+  }
 
   h4 {
     grid-area: title;
@@ -19,6 +30,11 @@
     text-transform: uppercase;
     font-size: $font-size-small;
     color: $color-secondary;
+    margin-bottom: $spacing / 2;
+
+    @include mq($from: desktop) {
+      margin-bottom: 0;
+    }
   }
 
   ul {

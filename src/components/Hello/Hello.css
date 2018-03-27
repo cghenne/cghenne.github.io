@@ -131,6 +131,8 @@ table {
 .hello {
   grid-area: hello;
 }
-.hello h3 {
-  text-align: right;
+@media (min-width: 46.25em) {
+  .hello h3 {
+    text-align: right;
+  }
 }

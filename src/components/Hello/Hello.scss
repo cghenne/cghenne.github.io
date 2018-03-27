@@ -3,7 +3,9 @@
 .hello {
   grid-area: hello;
 
-  h3 {
-    text-align: right;
+  @include mq($from: tablet) {
+    h3 {
+      text-align: right;
+    }
   }
 }

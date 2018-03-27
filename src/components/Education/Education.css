@@ -134,14 +134,29 @@ table {
 
 .school {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: 'year year year . details details details details details details details details';
+  grid-template-areas: 'year' 'details';
   margin-bottom: 20px;
+}
+@media (min-width: 61.25em) {
+  .school {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 'year year year . details details details details details details details details';
+  }
+}
+.school:last-child {
+  margin-bottom: 0;
 }
 .school .year {
   grid-area: year;
   color: #58595a;
+  margin-bottom: 10px;
+}
+@media (min-width: 61.25em) {
+  .school .year {
+    margin-bottom: 0;
+  }
 }
 .school .details {
   grid-area: details;

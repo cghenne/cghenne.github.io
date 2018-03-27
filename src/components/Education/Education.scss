@@ -6,16 +6,32 @@
 
 .school {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-    "year year year . details details details details details details details details";
+    "year"
+    "details";
 
   margin-bottom: $spacing;
+
+  @include mq($from: desktop) {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      "year year year . details details details details details details details details";
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   .year {
     grid-area: year;
     color: $color-secondary;
+    margin-bottom: $spacing / 2;
+
+    @include mq($from: desktop) {
+      margin-bottom: 0;
+    }
   }
 
   .details {
