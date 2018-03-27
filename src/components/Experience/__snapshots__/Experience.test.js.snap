@@ -9,7 +9,7 @@ exports[`Experience should render without crashing 1`] = `
   </h3>
   <Job
     company="LifeWorks"
-    description="LifeWorks transfered me to their Toronto Office to direct the
+    description="LifeWorks transfered me to their Toronto office to direct the
         development support in the Eastern Time Zone, continue the evolution and
         innovation of the product and create opportunities to build out a North
         America-based development team."
