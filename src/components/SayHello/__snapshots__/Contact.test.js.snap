@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact should render without crashing 1`] = `
+<a
+  className="contact"
+  href="https://www.google.ca/maps/place/Waterloo,+Belgium"
+  target="_blank"
+>
+  <img
+    alt="home_town"
+    src={null}
+  />
+  <span>
+    Waterloo, Belgium
+  </span>
+</a>
+`;

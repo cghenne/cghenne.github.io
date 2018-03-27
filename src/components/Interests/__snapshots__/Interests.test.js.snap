@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Interests should render without crashing 1`] = `
+<div
+  className="box interests"
+>
+  <h3>
+    Personal Interests
+  </h3>
+  <ul>
+    <Interest
+      description="Outdoor sports, squash, badminton"
+      key="sports"
+      label="Sports"
+      type="sports"
+    />
+    <Interest
+      description="Piano, Guitar"
+      key="Music"
+      label="Music"
+      type="Music"
+    />
+    <Interest
+      description="Travelling"
+      key="other"
+      label="Other"
+      type="other"
+    />
+  </ul>
+</div>
+`;

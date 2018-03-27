@@ -5,5 +5,16 @@ exports[`App should render without crashing 1`] = `
   className="container"
 >
   <Header />
+  <Hello />
+  <SayHello
+    showPrivateDetails={true}
+  />
+  <Experience />
+  <Skills />
+  <Education />
+  <Languages />
+  <Interests />
+  <References />
+  <Divider />
 </div>
 `;

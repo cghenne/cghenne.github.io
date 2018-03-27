@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reference should render without crashing 1`] = `
+<div
+  className="box references"
+>
+  <h3>
+    References
+  </h3>
+  <p>
+    References available upon request.
+  </p>
+</div>
+`;

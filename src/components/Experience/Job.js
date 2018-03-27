@@ -24,9 +24,9 @@ const Job = ({
         <h5>{company}</h5>
         <h5>{location}</h5>
 
-        {description && <p>{description}</p>}
+        {description && <p className="description">{description}</p>}
         {tech_stack && (
-          <p>
+          <p className="tech-stack">
             <span className="bold">Tech stack: </span>
             {tech_stack}
           </p>

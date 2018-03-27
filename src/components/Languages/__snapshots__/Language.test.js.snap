@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Language should render without crashing 1`] = `
+<li>
+  <span
+    className="bold"
+  >
+    Chinese
+  </span>
+  : 
+  Inexistent
+</li>
+`;

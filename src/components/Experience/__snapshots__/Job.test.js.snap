@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Job should render without crashing 1`] = `
+<div
+  className="job"
+>
+  <div
+    className="dates"
+  >
+    April 2018
+     - 
+    Present
+  </div>
+  <div
+    className="details"
+  >
+    <h4>
+      Lead Front-End Engineer
+    </h4>
+    <h5>
+      NA
+    </h5>
+    <h5>
+      Toronto, CA
+    </h5>
+  </div>
+</div>
+`;

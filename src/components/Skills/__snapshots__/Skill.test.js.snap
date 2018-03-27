@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill should render without crashing 1`] = `
+<div
+  className="skill"
+>
+  <h4>
+    Cooking
+  </h4>
+  <ul>
+    <li
+      key="0"
+    >
+      Pastry
+    </li>
+    <li
+      key="1"
+    >
+      Oven
+    </li>
+    <li
+      key="2"
+    >
+      Slow Cooker
+    </li>
+  </ul>
+</div>
+`;

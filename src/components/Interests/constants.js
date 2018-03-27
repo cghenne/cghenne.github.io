@@ -2,22 +2,22 @@ export const interests = [
   {
     type: 'sports',
     label: 'Sports',
-    level: 'Outdoor sports, squash, badminton'
+    description: 'Outdoor sports, squash, badminton'
   },
   {
     type: 'Music',
     label: 'Music',
-    level: 'Piano, Guitar'
+    description: 'Piano, Guitar'
   },
   {
     type: 'other',
     label: 'Other',
-    level: 'Travelling'
+    description: 'Travelling'
   }
 ];
 
 export type InterestT = {
   type: string,
   label: string,
-  level: string
+  description: string
 };

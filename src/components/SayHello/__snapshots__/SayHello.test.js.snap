@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SayHello should render without crashing 1`] = `
+<div
+  className="box say-hello"
+>
+  <h3>
+    Say Hello
+  </h3>
+  <Contact
+    icon="github.svg"
+    isPrivate={false}
+    key="github"
+    link="/cghenne"
+    type="github"
+    url="https://github.com/cghenne"
+  />
+  <Contact
+    icon="linkedin.svg"
+    isPrivate={false}
+    key="linkedin"
+    link="/cathleen-ghenne"
+    type="linkedin"
+    url="https://www.linkedin.com/in/cathleen-ghenne/"
+  />
+  <Contact
+    icon="email.svg"
+    isPrivate={true}
+    key="email"
+    link="cathleen.ghenne@gmail.com"
+    type="email"
+    url="mailto:cathleen.ghenne@gmail.com"
+  />
+  <Contact
+    icon="phone.svg"
+    isPrivate={true}
+    key="phone"
+    link="+1 437 928 2032"
+    type="phone"
+    url="tel:+14379282032"
+  />
+</div>
+`;

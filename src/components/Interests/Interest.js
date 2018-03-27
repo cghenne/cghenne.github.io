@@ -4,13 +4,13 @@ import './Interests.css';
 
 type Props = {
   label: string,
-  level: string
+  description: string
 };
 
-const Interest = ({ label, level }: Props) => {
+const Interest = ({ label, description }: Props) => {
   return (
     <li>
-      <span className="bold">{label}</span>: {level}
+      <span className="bold">{label}</span>: {description}
     </li>
   );
 };

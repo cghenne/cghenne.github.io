@@ -5,7 +5,7 @@ import './Education.css';
 
 type Props = SchoolT;
 
-const Job = ({ graduation_year, school, location, description }: Props) => {
+const School = ({ graduation_year, school, location, description }: Props) => {
   return (
     <div className="school">
       <div className="year">{graduation_year}</div>
@@ -18,6 +18,6 @@ const Job = ({ graduation_year, school, location, description }: Props) => {
   );
 };
 
-Job.displayName = 'Job';
+School.displayName = 'School';
 
-export default Job;
+export default School;

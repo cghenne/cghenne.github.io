@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`School should render without crashing 1`] = `
+<div
+  className="school"
+>
+  <div
+    className="year"
+  >
+    2022
+  </div>
+  <div
+    className="details"
+  >
+    <h4>
+      University of Toronto
+    </h4>
+    <h5>
+      Toronto, CA
+    </h5>
+    <p>
+      Master of Science in Applied Computing (MScAC)
+    </p>
+  </div>
+</div>
+`;

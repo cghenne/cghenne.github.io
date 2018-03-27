@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills should render without crashing 1`] = `
+<div
+  className="box skills"
+>
+  <h3>
+    Skills
+  </h3>
+  <Skill
+    key="languages"
+    label="Languages"
+    list={
+      Array [
+        "JavaScript ES6/ES7",
+        "CSS3/Sass",
+        "HTML5",
+      ]
+    }
+    type="languages"
+  />
+  <Skill
+    key="frameworks-libraries"
+    label="Frameworks & Libraries"
+    list={
+      Array [
+        "React",
+        "Redux",
+        "Jest",
+        "Flow",
+        "Node.js",
+        "Express",
+        "AngularJS 1.x",
+      ]
+    }
+    type="frameworks-libraries"
+  />
+  <Skill
+    key="tools"
+    label="Tools"
+    list={
+      Array [
+        "Webpack",
+        "NPM",
+        "Gulp",
+        "Travis CI",
+      ]
+    }
+    type="tools"
+  />
+  <Skill
+    key="databases"
+    label="Databases"
+    list={
+      Array [
+        "MongoDB",
+        "MySQL",
+      ]
+    }
+    type="databases"
+  />
+  <Skill
+    key="other"
+    label="Other"
+    list={
+      Array [
+        "Git",
+        "Jira",
+        "Agile workflows",
+        "Single Page Application",
+        "Responsive Web Design",
+        "Mobile First Design",
+        "Cross-Browser Compatibility",
+        "Accessiblity",
+      ]
+    }
+    type="other"
+  />
+</div>
+`;

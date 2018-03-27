@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Education should render without crashing 1`] = `
+<div
+  className="box education"
+>
+  <h3>
+    Education
+  </h3>
+  <School
+    description="10 week course on the mobile industry organised
+        by UCL (University College London) and Mobile Monday London."
+    graduation_year={2014}
+    key="0"
+    location="London, UK"
+    school="The Mobile Academy"
+  />
+  <School
+    description="BSc Computer Science (web services, infographic
+        and artificial intelligence)"
+    graduation_year={2008}
+    key="1"
+    location="Brussels, Belgium"
+    school="Paul Lambin Institute"
+  />
+  <School
+    description="Sciences and mathematics"
+    graduation_year={2005}
+    key="2"
+    location="Waterloo, Belgium"
+    school="High School \\"Lycée de Berlaymont\\""
+  />
+</div>
+`;

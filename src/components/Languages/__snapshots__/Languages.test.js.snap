@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Languages should render without crashing 1`] = `
+<div
+  className="box languages"
+>
+  <h3>
+    Languages
+  </h3>
+  <ul>
+    <Language
+      key="french"
+      label="French"
+      level="Native"
+      type="french"
+    />
+    <Language
+      key="english"
+      label="English"
+      level="Fluent"
+      type="english"
+    />
+    <Language
+      key="dutch"
+      label="Dutch"
+      level="Basic"
+      type="dutch"
+    />
+  </ul>
+</div>
+`;
