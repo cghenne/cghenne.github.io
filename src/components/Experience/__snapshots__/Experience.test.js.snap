@@ -57,6 +57,7 @@ exports[`Experience should render without crashing 1`] = `
     key="3"
     location="London, UK"
     position="Senior Web Developer"
+    print_margin={true}
     start_date="May 2012"
     tech_stack="HTML, CSS, JavaScript, AngularJS, ColdFusion, PHP, Wordpress"
   />

@@ -15,7 +15,7 @@ const Contact = ({ icon, link, url, type, isPrivate }: Props) => {
     <a
       href={url}
       target="_blank"
-      className={`contact ${isPrivate ? 'private' : ''}`}
+      className={`contact${isPrivate ? ' private' : ''}`}
     >
       <img src={icon} alt={type} />
       <span>{link}</span>

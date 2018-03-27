@@ -21,7 +21,7 @@ exports[`Skills should render without crashing 1`] = `
   />
   <Skill
     key="frameworks-libraries"
-    label="Frameworks & Libraries"
+    label="Frameworks / Libraries"
     list={
       Array [
         "React",

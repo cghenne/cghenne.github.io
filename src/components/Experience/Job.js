@@ -16,7 +16,7 @@ const Job = ({
   print_margin
 }: Props) => {
   return (
-    <div className={`job ${print_margin ? 'print-margin' : ''}`}>
+    <div className={`job${print_margin ? ' print-margin' : ''}`}>
       <div className="dates">
         {start_date} - {end_date ? end_date : 'Present'}
       </div>

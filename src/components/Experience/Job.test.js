@@ -28,6 +28,16 @@ describe('Job', () => {
     ).toEqual('job');
   });
 
+  it('should add print-margin if the print_margin is present in the props', () => {
+    wrapper.setProps({ print_margin: true });
+    expect(
+      wrapper
+        .find('div')
+        .first()
+        .prop('className')
+    ).toEqual('job print-margin');
+  });
+
   it('should render "start_date - Present" if the end_date is not defined', () => {
     expect(wrapper.find('.dates').text()).toEqual(
       `${fakeJob.start_date} - Present`

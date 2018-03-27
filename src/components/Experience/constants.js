@@ -5,7 +5,7 @@ export const jobs = [
     position: 'Senior Full-Stack Engineer',
     company: 'LifeWorks',
     location: 'Toronto, CA',
-    description: `LifeWorks transfered me to their Toronto Office to direct the
+    description: `LifeWorks transfered me to their Toronto office to direct the
       development support in the Eastern Time Zone, continue the evolution and
       innovation of the product and create opportunities to build out a North
       America-based development team.`,

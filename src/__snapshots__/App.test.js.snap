@@ -7,7 +7,7 @@ exports[`App should render without crashing 1`] = `
   <Header />
   <Hello />
   <SayHello
-    showPrivateDetails={true}
+    showPrivateDetails={false}
   />
   <Experience />
   <Skills />
@@ -16,5 +16,6 @@ exports[`App should render without crashing 1`] = `
   <Interests />
   <References />
   <Divider />
+  <PrintDivider />
 </div>
 `;

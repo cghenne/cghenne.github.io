@@ -21,8 +21,9 @@ describe('App', () => {
     expect(wrapper.find('Hello').exists()).toEqual(true);
   });
 
-  it('should render SayHello', () => {
+  it('should render SayHello with showPrivateDetails to false', () => {
     expect(wrapper.find('SayHello').exists()).toEqual(true);
+    expect(wrapper.find('SayHello').prop('showPrivateDetails')).toEqual(false);
   });
 
   it('should render Experience', () => {
@@ -51,5 +52,21 @@ describe('App', () => {
 
   it('should render Divider', () => {
     expect(wrapper.find('Divider').exists()).toEqual(true);
+  });
+
+  it('should render PrintDivider', () => {
+    expect(wrapper.find('PrintDivider').exists()).toEqual(true);
+  });
+
+  it('should render SayHello with showPrivateDetails to true when window.onbeforeprint is called', () => {
+    window.onbeforeprint();
+    wrapper.update();
+    expect(wrapper.find('SayHello').prop('showPrivateDetails')).toEqual(true);
+  });
+
+  it('should render SayHello with showPrivateDetails to false when window.onafterprint is called', () => {
+    window.onafterprint();
+    wrapper.update();
+    expect(wrapper.find('SayHello').prop('showPrivateDetails')).toEqual(false);
   });
 });
