@@ -5,7 +5,10 @@ export const jobs = [
     position: 'Senior Full-Stack Engineer',
     company: 'LifeWorks',
     location: 'Toronto, CA',
-    description: null,
+    description: `LifeWorks transfered me to their Toronto Office to direct the
+      development support in the Eastern Time Zone, continue the evolution and
+      innovation of the product and create opportunities to build out a North
+      America-based development team.`,
     tech_stack: null
   },
   {
@@ -15,10 +18,10 @@ export const jobs = [
     company: 'LifeWorks',
     location: 'London, UK',
     description: `In addition to front-end development,
-      I currently perform hiring, training, and mentoring
-      for the front-end team. I am also involved in project
+      I performed hiring, training, and mentoring
+      for the front-end team. I was also involved in project
       development and oversight and have helped to improve the
-      current operating platform.`,
+      operating platform.`,
     tech_stack: null
   },
   {
@@ -61,7 +64,7 @@ export const jobs = [
     start_date: 'July 2011',
     end_date: 'November 2011',
     position: 'Consultant',
-    company: 'Altran',
+    company: 'De Valck Consultants by Altran',
     location: 'Brussels, Belgium',
     description: `De Valck Consultants is part of Altran group,
       the European leader in innovation consulting.
