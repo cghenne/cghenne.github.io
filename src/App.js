@@ -17,7 +17,7 @@ const App = () => {
     <div className="container">
       <Header />
       <Hello />
-      <SayHello showPrivateDetails={true} />
+      <SayHello showPrivateDetails={process.env.NODE_ENV !== 'production'} />
       <Experience />
       <Skills />
       <Education />
