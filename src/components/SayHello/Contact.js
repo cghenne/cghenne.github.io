@@ -15,6 +15,7 @@ const Contact = ({ icon, link, url, type, isPrivate }: Props) => {
     <a
       href={url}
       target="_blank"
+      rel="noopener"
       className={`contact${isPrivate ? ' private' : ''}`}
     >
       <img src={icon} alt={type} />
