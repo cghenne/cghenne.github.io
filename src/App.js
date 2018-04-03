@@ -47,7 +47,7 @@ class App extends Component<Props, State> {
         <Interests />
         <References />
         <Divider />
-        <PrintDivider />
+        {isPrintMode && <PrintDivider />}
       </div>
     );
   }

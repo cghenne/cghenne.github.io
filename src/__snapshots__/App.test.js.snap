@@ -16,6 +16,5 @@ exports[`App should render without crashing 1`] = `
   <Interests />
   <References />
   <Divider />
-  <PrintDivider />
 </div>
 `;

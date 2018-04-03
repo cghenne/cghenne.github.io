@@ -54,8 +54,8 @@ describe('App', () => {
     expect(wrapper.find('Divider').exists()).toEqual(true);
   });
 
-  it('should render PrintDivider', () => {
-    expect(wrapper.find('PrintDivider').exists()).toEqual(true);
+  it('should not render PrintDivider', () => {
+    expect(wrapper.find('PrintDivider').exists()).toEqual(false);
   });
 
   it('should render SayHello with showPrivateDetails to true when window.onbeforeprint is called', () => {
@@ -64,9 +64,17 @@ describe('App', () => {
     expect(wrapper.find('SayHello').prop('showPrivateDetails')).toEqual(true);
   });
 
+  it('should render PrintDivider when in print mode', () => {
+    expect(wrapper.find('PrintDivider').exists()).toEqual(true);
+  });
+
   it('should render SayHello with showPrivateDetails to false when window.onafterprint is called', () => {
     window.onafterprint();
     wrapper.update();
     expect(wrapper.find('SayHello').prop('showPrivateDetails')).toEqual(false);
+  });
+
+  it('should not render PrintDivider when not in print mode', () => {
+    expect(wrapper.find('PrintDivider').exists()).toEqual(false);
   });
 });
