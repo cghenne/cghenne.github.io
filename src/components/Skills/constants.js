@@ -2,7 +2,7 @@ export const skills = [
   {
     type: 'languages',
     label: 'Languages',
-    list: ['JavaScript ES6/ES7', 'CSS3/Sass', 'HTML5']
+    list: ['JavaScript ES6/ES7', 'SASS', 'HTML']
   },
   {
     type: 'frameworks-libraries',
@@ -11,35 +11,27 @@ export const skills = [
       'React',
       'Redux',
       'Jest',
+      'Enzyme',
       'Flow',
       'Node.js',
       'Express',
-      'AngularJS 1.x'
+      'Sequelize'
     ]
   },
   {
     type: 'tools',
     label: 'Tools',
-    list: ['Webpack', 'NPM', 'Gulp', 'Travis CI']
+    list: ['Webpack', 'NPM', 'Travis CI', 'CircleCI']
   },
   {
     type: 'databases',
     label: 'Databases',
-    list: ['MongoDB', 'MySQL']
+    list: ['Postgres', 'MongoDB', 'MySQL']
   },
   {
     type: 'other',
     label: 'Other',
-    list: [
-      'Git',
-      'Jira',
-      'Agile workflows',
-      'Single Page Application',
-      'Responsive Web Design',
-      'Mobile First Design',
-      'Cross-Browser Compatibility',
-      'Accessiblity'
-    ]
+    list: ['Git', 'Jira', 'Agile workflows', 'AWS']
   }
 ];
 

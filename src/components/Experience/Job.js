@@ -12,6 +12,7 @@ const Job = ({
   company,
   location,
   description,
+  achievements,
   tech_stack,
   print_margin
 }: Props) => {
@@ -26,6 +27,13 @@ const Job = ({
         <h5>{location}</h5>
 
         {description && <p className="description">{description}</p>}
+        {achievements && achievements.length > 0 && (
+          <ul className="achievements">
+            {achievements.map(achievement => (
+              <li>{achievement}</li>
+            ))}
+          </ul>
+        )}
         {tech_stack && (
           <p className="tech-stack">
             <span className="bold">Tech stack: </span>
