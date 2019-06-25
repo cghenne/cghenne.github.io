@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: ['Open Sans', 'Roboto']
+  }
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
 
 console.info(
-  'Thanks Alissa (http://alissaschlecht.com/) for allowing me to steal your design!'
+  'Thanks Alissa (http://www.alissa-schlecht.com/) for allowing me to steal your design!'
 );

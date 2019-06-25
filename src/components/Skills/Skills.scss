@@ -1,4 +1,4 @@
-@import 'styles/utils.scss';
+@import '../../styles/utils.scss';
 
 .skills {
   grid-area: skills;
@@ -9,8 +9,8 @@
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-    "title"
-    "list";
+    'title'
+    'list';
 
   margin-bottom: $spacing;
 
@@ -20,14 +20,12 @@
 
   @include mq($from: desktop) {
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas:
-      "title title title . list list list list list list list list";
+    grid-template-areas: 'title title title . list list list list list list list list';
   }
 
   @media print {
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas:
-      "title title title . list list list list list list list list";
+    grid-template-areas: 'title title title . list list list list list list list list';
   }
 
   h4 {

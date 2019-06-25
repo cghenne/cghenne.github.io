@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import './SayHello.css';
+import './SayHello.scss';
 
 type Props = {
   icon: string,
@@ -15,7 +15,7 @@ const Contact = ({ icon, link, url, type, isPrivate }: Props) => {
     <a
       href={url}
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
       className={`contact${isPrivate ? ' private' : ''}`}
     >
       <img src={icon} alt={type} />

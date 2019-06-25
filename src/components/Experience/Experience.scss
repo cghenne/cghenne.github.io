@@ -1,4 +1,4 @@
-@import 'styles/utils.scss';
+@import '../../styles/utils.scss';
 
 .experience {
   grid-area: experience;
@@ -75,7 +75,6 @@
     .bold {
       font-weight: $font-weight-bold;
     }
-
   }
 
   &.print-margin {
@@ -83,5 +82,4 @@
       padding-top: 109px;
     }
   }
-
 }

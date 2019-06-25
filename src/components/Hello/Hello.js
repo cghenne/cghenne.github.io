@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import './Hello.css';
+import './Hello.scss';
 
 const Hello = () => {
   return (

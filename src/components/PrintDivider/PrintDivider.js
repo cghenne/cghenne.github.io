@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import { generateHTMLDots } from './helpers';
-import './PrintDivider.css';
+import './PrintDivider.scss';
 
 const DOTS_FIRST_PAGE = 97;
 const DOTS_SECOND_PAGE = 109;

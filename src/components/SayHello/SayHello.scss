@@ -1,4 +1,4 @@
-@import 'styles/utils.scss';
+@import '../../styles/utils.scss';
 
 .say-hello {
   grid-area: sayHello;
@@ -24,7 +24,8 @@
     }
   }
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     opacity: 0.6;
   }
 

@@ -9,7 +9,7 @@ exports[`Education should render without crashing 1`] = `
   </h3>
   <School
     description="10 week course on the mobile industry organised
-        by UCL (University College London) and Mobile Monday London."
+      by UCL (University College London) and Mobile Monday London."
     graduation_year={2014}
     key="0"
     location="London, UK"
@@ -17,7 +17,7 @@ exports[`Education should render without crashing 1`] = `
   />
   <School
     description="BSc Computer Science (web services, infographic
-        and artificial intelligence)"
+      and artificial intelligence)"
     graduation_year={2008}
     key="1"
     location="Brussels, Belgium"

@@ -3,7 +3,7 @@ import React from 'react';
 import { languages } from './constants';
 import type { LanguageT } from './constants';
 import Language from './Language';
-import './Languages.css';
+import './Languages.scss';
 
 const Languages = () => {
   return (

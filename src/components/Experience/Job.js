@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import type { JobT } from './constants';
-import './Experience.css';
+import './Experience.scss';
 
 type Props = JobT;
 

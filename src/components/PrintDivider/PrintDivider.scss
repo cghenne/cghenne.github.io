@@ -1,4 +1,4 @@
-@import 'styles/utils.scss';
+@import '../../styles/utils.scss';
 
 .print-divider {
   display: none;
@@ -6,11 +6,14 @@
   text-align: center;
   position: relative;
 
-  .print-divider-page-1, .print-divider-page-2 {
+  .print-divider-page-1,
+  .print-divider-page-2 {
     line-height: 8px;
   }
 
-  .dot, .triangle-up, .triangle-down {
+  .dot,
+  .triangle-up,
+  .triangle-down {
     fill: rgba($color-secondary, 0.7);
   }
 

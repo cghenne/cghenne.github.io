@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import type { SchoolT } from './constants';
-import './Education.css';
+import './Education.scss';
 
 type Props = SchoolT;
 

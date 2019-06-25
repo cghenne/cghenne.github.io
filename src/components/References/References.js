@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import './References.css';
+import './References.scss';
 
 const References = () => {
   return (

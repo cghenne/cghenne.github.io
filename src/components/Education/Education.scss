@@ -1,11 +1,11 @@
-@import 'styles/utils.scss';
+@import '../../styles/utils.scss';
 
 .education {
   grid-area: education;
 
   // pages breaks are not working with css grid so I will add some margin manually instead
   @media print {
-    margin-top: 200px;    
+    margin-top: 200px;
   }
 }
 
@@ -14,21 +14,19 @@
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-    "year"
-    "details";
+    'year'
+    'details';
 
   margin-bottom: $spacing;
 
   @include mq($from: desktop) {
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas:
-      "year year year . details details details details details details details details";
+    grid-template-areas: 'year year year . details details details details details details details details';
   }
 
   @media print {
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas:
-      "year year year . details details details details details details details details";
+    grid-template-areas: 'year year year . details details details details details details details details';
   }
 
   &:last-child {
@@ -69,6 +67,5 @@
       margin-top: $spacing;
       text-align: justify;
     }
-
   }
 }

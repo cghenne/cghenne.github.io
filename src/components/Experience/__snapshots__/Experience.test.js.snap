@@ -10,9 +10,9 @@ exports[`Experience should render without crashing 1`] = `
   <Job
     company="LifeWorks"
     description="LifeWorks transfered me to their Toronto office to direct the
-        development support in the Eastern Time Zone, continue the evolution and
-        innovation of the product and create opportunities to build out a North
-        America-based development team."
+      development support in the Eastern Time Zone, continue the evolution and
+      innovation of the product and create opportunities to build out a North
+      America-based development team."
     end_date={null}
     key="0"
     location="Toronto, CA"
@@ -23,10 +23,10 @@ exports[`Experience should render without crashing 1`] = `
   <Job
     company="LifeWorks"
     description="In addition to front-end development,
-        I performed hiring, training, and mentoring
-        for the front-end team. I was also involved in project
-        development and oversight and have helped to improve the
-        operating platform."
+      I performed hiring, training, and mentoring
+      for the front-end team. I was also involved in project
+      development and oversight and have helped to improve the
+      operating platform."
     end_date="December 2017"
     key="1"
     location="London, UK"
@@ -37,22 +37,22 @@ exports[`Experience should render without crashing 1`] = `
   <Job
     company="LifeWorks"
     description="LifeWorks: A Global Employee Engagement
-        Platform serving 50,000 companies with over 15 million users."
+      Platform serving 50,000 companies with over 15 million users."
     end_date="July 2016"
     key="2"
     location="London, UK"
     position="Front-End Engineer"
     start_date="July 2015"
     tech_stack="JavaScript, React, AngularJS, HTML, CSS, Sass,
-        Redux, Flow, Node.js, Webpack, Gulp, NPM, Clojure, ClojureScript,
-        Jenkins, Vagrant"
+      Redux, Flow, Node.js, Webpack, Gulp, NPM, Clojure, ClojureScript,
+      Jenkins, Vagrant"
   />
   <Job
     company="Vanilla Active"
     description="Vanilla Active is a digital agency offering services to
-        agencies and brands. We designed and implemented promotional web
-        sites directly with brands and worked closely with advertising
-        and marketing agencies."
+      agencies and brands. We designed and implemented promotional web
+      sites directly with brands and worked closely with advertising
+      and marketing agencies."
     end_date="July 2015"
     key="3"
     location="London, UK"
@@ -64,9 +64,9 @@ exports[`Experience should render without crashing 1`] = `
   <Job
     company="Wild Media Ltd"
     description="Wild Media Ltd is a startup in the new
-        media area. As an Excel expert and
-        database manager, I was in charge of optimising
-        and automating the logistics department."
+      media area. As an Excel expert and
+      database manager, I was in charge of optimising
+      and automating the logistics department."
     end_date="March 2012"
     key="4"
     location="London, UK"
@@ -77,10 +77,10 @@ exports[`Experience should render without crashing 1`] = `
   <Job
     company="De Valck Consultants by Altran"
     description="De Valck Consultants is part of Altran group,
-        the European leader in innovation consulting.
-        It is the dedicated brand to Quality Assurance
-        for the Life Science industry. I worked as an
-        IS Validation Engineer at Baxter Healthcare."
+      the European leader in innovation consulting.
+      It is the dedicated brand to Quality Assurance
+      for the Life Science industry. I worked as an
+      IS Validation Engineer at Baxter Healthcare."
     end_date="November 2011"
     key="5"
     location="Brussels, Belgium"
@@ -91,12 +91,12 @@ exports[`Experience should render without crashing 1`] = `
   <Job
     company="Jules Bordet Institute"
     description="The BrEAST data centre is a specialised clinical
-        trials unit created in order to conduct large,
-        international Phase III studies in breast cancer
-        aiming to register new drugs. I worked as a web
-        and application developer, in IT support and
-        maintenance, and in validation of computer systems
-        developed in-house (GCP, 21 CRF part 11)."
+      trials unit created in order to conduct large,
+      international Phase III studies in breast cancer
+      aiming to register new drugs. I worked as a web
+      and application developer, in IT support and
+      maintenance, and in validation of computer systems
+      developed in-house (GCP, 21 CRF part 11)."
     end_date="June 2011"
     key="6"
     location="Brussels, Belgium"

@@ -3,7 +3,7 @@ import React from 'react';
 import { interests } from './constants';
 import type { InterestT } from './constants';
 import Interest from './Interest';
-import './Interests.css';
+import './Interests.scss';
 
 const Interests = () => {
   return (

@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import './Interests.css';
+import './Interests.scss';
 
 type Props = {
   label: string,

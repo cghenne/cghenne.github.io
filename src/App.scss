@@ -1,4 +1,4 @@
-@import 'styles/utils.scss';
+@import './styles/utils.scss';
 
 body {
   background-color: $color-background;
@@ -18,28 +18,28 @@ body {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-    "header"
-    "hello"
-    "sayHello"
-    "skills"
-    "experience"
-    "education"
-    "languages"
-    "interests"
-    "references";
+    'header'
+    'hello'
+    'sayHello'
+    'skills'
+    'experience'
+    'education'
+    'languages'
+    'interests'
+    'references';
 
   @include mq($from: tablet) {
     width: 700px;
     grid-template-columns: repeat(7, 1fr);
     grid-template-areas:
-      "header header header header header header header"
-      "hello hello hello divider sayHello sayHello sayHello"
-      "experience experience experience divider skills skills skills"
-      "experience experience experience divider education education education"
-      "experience experience experience divider languages languages languages"
-      "experience experience experience divider interests interests interests"
-      "experience experience experience divider references references references"
-      "experience experience experience divider . . .";
+      'header header header header header header header'
+      'hello hello hello divider sayHello sayHello sayHello'
+      'experience experience experience divider skills skills skills'
+      'experience experience experience divider education education education'
+      'experience experience experience divider languages languages languages'
+      'experience experience experience divider interests interests interests'
+      'experience experience experience divider references references references'
+      'experience experience experience divider . . .';
   }
 
   @include mq($from: desktop) {
@@ -49,18 +49,18 @@ body {
   @media print {
     padding: 0 $spacing;
     width: 90%;
-		height: auto;
-		margin: auto;
+    height: auto;
+    margin: auto;
     grid-template-columns: repeat(7, 1fr);
     grid-template-areas:
-      "header header header header header header header"
-      "hello hello hello printDivider sayHello sayHello sayHello"
-      "experience experience experience printDivider skills skills skills"
-      "experience experience experience printDivider education education education"
-      "experience experience experience printDivider languages languages languages"
-      "experience experience experience printDivider interests interests interests"
-      "experience experience experience printDivider references references references"
-      "experience experience experience printDivider . . .";
+      'header header header header header header header'
+      'hello hello hello printDivider sayHello sayHello sayHello'
+      'experience experience experience printDivider skills skills skills'
+      'experience experience experience printDivider education education education'
+      'experience experience experience printDivider languages languages languages'
+      'experience experience experience printDivider interests interests interests'
+      'experience experience experience printDivider references references references'
+      'experience experience experience printDivider . . .';
   }
 }
 

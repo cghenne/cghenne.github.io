@@ -11,7 +11,7 @@ import Interests from './components/Interests/Interests';
 import References from './components/References/References';
 import Divider from './components/Divider/Divider';
 import PrintDivider from './components/PrintDivider/PrintDivider';
-import './App.css';
+import './App.scss';
 
 type Props = {};
 type State = {

@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import './Skills.css';
+import './Skills.scss';
 
 type Props = {
   label: string,
@@ -12,7 +12,9 @@ const Skill = ({ label, list }: Props) => {
     <div className="skill">
       <h4>{label}</h4>
       <ul>
-        {list.map((item: string, index: number) => <li key={index}>{item}</li>)}
+        {list.map((item: string, index: number) => (
+          <li key={index}>{item}</li>
+        ))}
       </ul>
     </div>
   );

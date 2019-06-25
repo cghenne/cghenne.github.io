@@ -4,7 +4,7 @@ exports[`Contact should render without crashing 1`] = `
 <a
   className="contact"
   href="https://www.google.ca/maps/place/Waterloo,+Belgium"
-  rel="noopener"
+  rel="noopener noreferrer"
   target="_blank"
 >
   <img

@@ -1,9 +1,9 @@
-@import 'styles/utils.scss';
+@import '../../styles/utils.scss';
 
 .divider {
   grid-area: divider;
 
-  background-image: url('data:image/svg+xml;utf8,<svg height="9" width="9" version="1.1" xmlns="http://www.w3.org/2000/svg"><circle cx="4" cy="4" r="2" fill="' + $color-secondary + '" /></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg height="9" width="9" version="1.1" xmlns="http://www.w3.org/2000/svg"><circle cx="4" cy="4" r="2" fill="'+$color-secondary+'" /></svg>');
   background-repeat: repeat-y;
   background-position: center;
 }

@@ -3,13 +3,15 @@ import React from 'react';
 import Skill from './Skill';
 import { skills } from './constants';
 import type { SkillT } from './constants';
-import './Skills.css';
+import './Skills.scss';
 
 const Skills = () => {
   return (
     <div className="box skills">
       <h3>Skills</h3>
-      {skills.map((skill: SkillT) => <Skill {...skill} key={skill.type} />)}
+      {skills.map((skill: SkillT) => (
+        <Skill {...skill} key={skill.type} />
+      ))}
     </div>
   );
 };

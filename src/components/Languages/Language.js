@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import './Languages.css';
+import './Languages.scss';
 
 type Props = {
   label: string,

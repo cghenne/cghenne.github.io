@@ -3,7 +3,7 @@ import React from 'react';
 import { education } from './constants';
 import type { SchoolT } from './constants';
 import School from './School';
-import './Education.css';
+import './Education.scss';
 
 const Education = () => {
   return (

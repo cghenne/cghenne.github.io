@@ -1,4 +1,4 @@
-@import 'styles/utils.scss';
+@import '../../styles/utils.scss';
 
 .languages {
   grid-area: languages;
@@ -6,5 +6,4 @@
   .bold {
     font-weight: $font-weight-bold;
   }
-
 }
