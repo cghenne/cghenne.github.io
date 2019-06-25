@@ -8,7 +8,7 @@ import './Experience.scss';
 const Experience = () => {
   return (
     <div className="box volunteer">
-      <h3>Volunteer Experience</h3>
+      <h3>Volunteering</h3>
       {jobs
         .filter(job => job.volunteer)
         .map((job: JobT, index: number) => (

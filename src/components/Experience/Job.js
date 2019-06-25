@@ -29,8 +29,8 @@ const Job = ({
         {description && <p className="description">{description}</p>}
         {achievements && achievements.length > 0 && (
           <ul className="achievements">
-            {achievements.map(achievement => (
-              <li>{achievement}</li>
+            {achievements.map((achievement, index) => (
+              <li key={index}>{achievement}</li>
             ))}
           </ul>
         )}
