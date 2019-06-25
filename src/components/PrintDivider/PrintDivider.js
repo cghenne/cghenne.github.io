@@ -3,8 +3,8 @@ import React from 'react';
 import { generateHTMLDots } from './helpers';
 import './PrintDivider.scss';
 
-const DOTS_FIRST_PAGE = 97;
-const DOTS_SECOND_PAGE = 109;
+const DOTS_FIRST_PAGE = 90;
+const DOTS_SECOND_PAGE = 100;
 
 const PrintDivider = () => {
   return (

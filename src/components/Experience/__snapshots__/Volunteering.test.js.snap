@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Volunteering should render without crashing 1`] = `
+<div
+  className="box volunteering"
+>
+  <h3>
+    Volunteering
+  </h3>
+  <Job
+    company="Bridge School"
+    description="Free software development education 
+      for women, agender, and non-binary professionals in technology."
+    end_date={null}
+    key="0"
+    location="Toronto, CA"
+    position="Lead Instructor"
+    start_date="March 2019"
+    tech_stack={null}
+    volunteer={true}
+  />
+</div>
+`;

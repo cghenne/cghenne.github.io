@@ -3,10 +3,10 @@ import { shallow } from 'enzyme';
 import Job from './Job';
 
 const fakeJob = {
-  start_date: 'April 2018',
+  start_date: 'July 2019',
   end_date: null,
-  position: 'Lead Front-End Engineer',
-  company: 'NA',
+  position: 'Senior Front-End Engineer',
+  company: 'Uber',
   location: 'Toronto, CA',
   description: null,
   tech_stack: null
@@ -61,13 +61,7 @@ describe('Job', () => {
         .find('h5')
         .first()
         .text()
-    ).toEqual(fakeJob.company);
-    expect(
-      details
-        .find('h5')
-        .last()
-        .text()
-    ).toEqual(fakeJob.location);
+    ).toEqual(`${fakeJob.company} - ${fakeJob.location}`);
   });
 
   it('should not render the description if the description is not defined', () => {

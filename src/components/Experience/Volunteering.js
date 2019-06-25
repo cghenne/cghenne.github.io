@@ -5,12 +5,12 @@ import { jobs } from './constants';
 import type { JobT } from './constants';
 import './Experience.scss';
 
-const Experience = () => {
+const Volunteering = () => {
   return (
-    <div className="box experience">
-      <h3>Experience</h3>
+    <div className="box volunteering">
+      <h3>Volunteering</h3>
       {jobs
-        .filter(job => !job.volunteer)
+        .filter(job => job.volunteer)
         .map((job: JobT, index: number) => (
           <Job {...job} key={index} />
         ))}
@@ -18,6 +18,6 @@ const Experience = () => {
   );
 };
 
-Experience.displayName = 'Experience';
+Volunteering.displayName = 'Volunteering';
 
-export default Experience;
+export default Volunteering;

@@ -7,7 +7,7 @@ exports[`Job should render without crashing 1`] = `
   <div
     className="dates"
   >
-    April 2018
+    July 2019
      - 
     Present
   </div>
@@ -15,12 +15,11 @@ exports[`Job should render without crashing 1`] = `
     className="details"
   >
     <h4>
-      Lead Front-End Engineer
+      Senior Front-End Engineer
     </h4>
     <h5>
-      NA
-    </h5>
-    <h5>
+      Uber
+       - 
       Toronto, CA
     </h5>
   </div>

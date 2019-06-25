@@ -2,7 +2,7 @@
 
 .experience {
   grid-area: experience;
-  padding-bottom: 0 !important;
+  // padding-bottom: 0 !important;
 
   @include mq($from: tablet) {
     h3 {
@@ -70,16 +70,38 @@
     p {
       margin-top: $spacing;
       text-align: justify;
+
+      @media print {
+        margin-top: $spacing / 2;
+      }
     }
 
     .bold {
       font-weight: $font-weight-bold;
     }
+
+    .achievements {
+      margin-top: $spacing;
+      margin-left: $spacing;
+      text-align: left;
+
+      li {
+        list-style-type: circle;
+      }
+    }
   }
 
   &.print-margin {
     @media print {
-      padding-top: 109px;
+      padding-top: 188px;
     }
+  }
+}
+
+.volunteering {
+  grid-area: volunteering;
+
+  .job {
+    text-align: left;
   }
 }

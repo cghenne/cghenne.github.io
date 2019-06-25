@@ -12,6 +12,7 @@ const Job = ({
   company,
   location,
   description,
+  achievements,
   tech_stack,
   print_margin
 }: Props) => {
@@ -22,10 +23,18 @@ const Job = ({
       </div>
       <div className="details">
         <h4>{position}</h4>
-        <h5>{company}</h5>
-        <h5>{location}</h5>
+        <h5>
+          {company} - {location}
+        </h5>
 
         {description && <p className="description">{description}</p>}
+        {achievements && achievements.length > 0 && (
+          <ul className="achievements">
+            {achievements.map((achievement, index) => (
+              <li key={index}>{achievement}</li>
+            ))}
+          </ul>
+        )}
         {tech_stack && (
           <p className="tech-stack">
             <span className="bold">Tech stack: </span>
