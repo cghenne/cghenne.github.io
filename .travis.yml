@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-  - 6
+  - 10
 cache:
   directories:
     - node_modules
 script:
-  - npm run build
-  - npm test
-  - npm run flow
+  - yarn build
+  - yarn test
+  - yarn flow
 # blocklist master branch as it's used for github page
 branches:
   except:
