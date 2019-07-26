@@ -26,12 +26,12 @@ exports[`Skills should render without crashing 1`] = `
       Array [
         "React",
         "Redux",
-        "Jest",
-        "Enzyme",
-        "Flow",
         "Node.js",
         "Express",
         "Sequelize",
+        "Jest",
+        "Enzyme",
+        "Flow",
       ]
     }
     type="frameworks-libraries"
@@ -42,7 +42,7 @@ exports[`Skills should render without crashing 1`] = `
     list={
       Array [
         "Webpack",
-        "NPM",
+        "NPM/Yarn",
         "Travis CI",
         "CircleCI",
       ]

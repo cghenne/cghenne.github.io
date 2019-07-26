@@ -24,12 +24,12 @@ describe('Header', () => {
   });
 
   it('should render my profession in h2', () => {
-    expect(wrapper.find('h2').text()).toEqual('Front-End Engineer');
+    expect(wrapper.find('h2').text()).toEqual('JavaScript Engineer');
     expect(
       wrapper
         .find('.secondary')
         .last()
         .text()
-    ).toEqual('Front-End');
+    ).toEqual('JavaScript');
   });
 });

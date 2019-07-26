@@ -10,18 +10,18 @@ export const skills = [
     list: [
       'React',
       'Redux',
-      'Jest',
-      'Enzyme',
-      'Flow',
       'Node.js',
       'Express',
-      'Sequelize'
+      'Sequelize',
+      'Jest',
+      'Enzyme',
+      'Flow'
     ]
   },
   {
     type: 'tools',
     label: 'Tools',
-    list: ['Webpack', 'NPM', 'Travis CI', 'CircleCI']
+    list: ['Webpack', 'NPM/Yarn', 'Travis CI', 'CircleCI']
   },
   {
     type: 'databases',
