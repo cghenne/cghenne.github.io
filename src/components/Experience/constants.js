@@ -1,15 +1,41 @@
 export const jobs = [
   {
-    start_date: 'January 2018',
+    start_date: 'April 2019',
     end_date: null,
+    position: 'Venture Technology Lead',
+    company: 'RBC Ventures',
+    location: 'Toronto, CA',
+    description: `RBC is going beyond banking to create solutions that touch every Canadian.`,
+    achievements: [
+      'Migrated database from MongoDB to PostgreSQL.',
+      'Improved team culture and overall happiness.'
+    ]
+  },
+  {
+    start_date: 'July 2018',
+    end_date: 'April 2019',
+    position: 'Senior JavaScript Engineer',
+    company: 'RBC Ventures',
+    location: 'Toronto, CA',
+    description: null,
+    achievements: [
+      'Led a complete refactor of the front-end.',
+      'Redesigned the database schema.',
+      'Took the test coverage from 13% to 80%.'
+    ]
+  },
+  {
+    start_date: 'January 2018',
+    end_date: 'July 2018',
     position: 'Senior Full-Stack Engineer',
     company: 'LifeWorks',
     location: 'Toronto, CA',
-    description: `LifeWorks transfered me to their Toronto office to direct the
-      development support in the Eastern Time Zone, continue the evolution and
-      innovation of the product and create opportunities to build out a North
-      America-based development team.`,
-    tech_stack: null
+    description: `LifeWorks is a global employee engagement
+      platform serving 50,000 companies with over 15 million users.`,
+    achievements: [
+      'Implemented a dashboard using clojure.',
+      'Wrote lots of unit tests.'
+    ]
   },
   {
     start_date: 'July 2016',
@@ -17,12 +43,12 @@ export const jobs = [
     position: 'Lead Front-End Engineer',
     company: 'LifeWorks',
     location: 'London, UK',
-    description: `In addition to front-end development,
-      I performed hiring, training, and mentoring
-      for the front-end team. I was also involved in project
-      development and oversight and have helped to improve the
-      operating platform.`,
-    tech_stack: null
+    description: null,
+    achievements: [
+      'Hired, trained and mentored the front-end team.',
+      'Improved the platform performances.'
+    ],
+    print_margin: true
   },
   {
     start_date: 'July 2015',
@@ -30,11 +56,11 @@ export const jobs = [
     position: 'Front-End Engineer',
     company: 'LifeWorks',
     location: 'London, UK',
-    description: `LifeWorks: A Global Employee Engagement
-      Platform serving 50,000 companies with over 15 million users.`,
-    tech_stack: `JavaScript, React, AngularJS, HTML, CSS, Sass,
-      Redux, Flow, Node.js, Webpack, Gulp, NPM, Clojure, ClojureScript,
-      Jenkins, Vagrant`
+    description: null,
+    achievements: [
+      'Built new features in React.',
+      'Refactored features from AngularJS to React.'
+    ]
   },
   {
     start_date: 'May 2012',
@@ -43,51 +69,32 @@ export const jobs = [
     company: 'Vanilla Active',
     location: 'London, UK',
     description: `Vanilla Active is a digital agency offering services to
-      agencies and brands. We designed and implemented promotional web
-      sites directly with brands and worked closely with advertising
-      and marketing agencies.`,
-    tech_stack: 'HTML, CSS, JavaScript, AngularJS, ColdFusion, PHP, Wordpress',
-    print_margin: true
-  },
-  {
-    start_date: 'November 2011',
-    end_date: 'March 2012',
-    position: 'Excel Expert',
-    company: 'Wild Media Ltd',
-    location: 'London, UK',
-    description: `Wild Media Ltd is a startup in the new
-      media area. As an Excel expert and
-      database manager, I was in charge of optimising
-      and automating the logistics department.`,
-    tech_stack: null
-  },
-  {
-    start_date: 'July 2011',
-    end_date: 'November 2011',
-    position: 'Consultant',
-    company: 'De Valck Consultants by Altran',
-    location: 'Brussels, Belgium',
-    description: `De Valck Consultants is part of Altran group,
-      the European leader in innovation consulting.
-      It is the dedicated brand to Quality Assurance
-      for the Life Science industry. I worked as an
-      IS Validation Engineer at Baxter Healthcare.`,
-    tech_stack: null
+      agencies and brands.`,
+    achievements: ['Built more than a 100 micro websites.']
   },
   {
     start_date: 'December 2008',
     end_date: 'June 2011',
     position: 'Web Developer',
     company: 'Jules Bordet Institute',
-    location: 'Brussels, Belgium',
-    description: `The BrEAST data centre is a specialised clinical
-      trials unit created in order to conduct large,
-      international Phase III studies in breast cancer
-      aiming to register new drugs. I worked as a web
-      and application developer, in IT support and
-      maintenance, and in validation of computer systems
-      developed in-house (GCP, 21 CRF part 11).`,
-    tech_stack: 'HTML, CSS, JavaScript, PHP, Java, Oracle SQL, MySQL'
+    location: 'Brussels, BE',
+    description: `The BrEAST data centre is a clinical trials unit 
+      conducting international studies in breast cancer research.`,
+    achievements: [
+      'Worked on a website used by doctors worldwide.',
+      'Learned about validation of computer systems.'
+    ]
+  },
+  {
+    start_date: 'March 2019',
+    end_date: null,
+    position: 'Lead Instructor',
+    company: 'Bridge School',
+    location: 'Toronto, CA',
+    description: `Free software development education 
+      for women, agender, and non-binary professionals in technology.`,
+    tech_stack: null,
+    volunteer: true
   }
 ];
 
@@ -98,6 +105,7 @@ export type JobT = {
   company: string,
   location: string,
   description: ?string,
-  tech_stack: ?string,
-  print_margin?: boolean
+  achievements: Array<string>,
+  print_margin?: boolean,
+  volunteer?: boolean
 };

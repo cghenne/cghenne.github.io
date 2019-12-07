@@ -6,6 +6,7 @@ import SayHello from './components/SayHello/SayHello';
 import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 import Education from './components/Education/Education';
+import Volunteering from './components/Experience/Volunteering';
 import Languages from './components/Languages/Languages';
 import Interests from './components/Interests/Interests';
 import References from './components/References/References';
@@ -30,6 +31,7 @@ const App = () => {
       <Experience />
       <Skills />
       <Education />
+      <Volunteering />
       <Languages />
       <Interests />
       <References />

@@ -8,101 +8,113 @@ exports[`Experience should render without crashing 1`] = `
     Experience
   </h3>
   <Job
-    company="LifeWorks"
-    description="LifeWorks transfered me to their Toronto office to direct the
-      development support in the Eastern Time Zone, continue the evolution and
-      innovation of the product and create opportunities to build out a North
-      America-based development team."
+    achievements={
+      Array [
+        "Migrated database from MongoDB to PostgreSQL.",
+        "Improved team culture and overall happiness.",
+      ]
+    }
+    company="RBC Ventures"
+    description="RBC is going beyond banking to create solutions that touch every Canadian."
     end_date={null}
     key="0"
     location="Toronto, CA"
+    position="Venture Technology Lead"
+    start_date="April 2019"
+  />
+  <Job
+    achievements={
+      Array [
+        "Led a complete refactor of the front-end.",
+        "Redesigned the database schema.",
+        "Took the test coverage from 13% to 80%.",
+      ]
+    }
+    company="RBC Ventures"
+    description={null}
+    end_date="April 2019"
+    key="1"
+    location="Toronto, CA"
+    position="Senior JavaScript Engineer"
+    start_date="July 2018"
+  />
+  <Job
+    achievements={
+      Array [
+        "Implemented a dashboard using clojure.",
+        "Wrote lots of unit tests.",
+      ]
+    }
+    company="LifeWorks"
+    description="LifeWorks is a global employee engagement
+      platform serving 50,000 companies with over 15 million users."
+    end_date="July 2018"
+    key="2"
+    location="Toronto, CA"
     position="Senior Full-Stack Engineer"
     start_date="January 2018"
-    tech_stack={null}
   />
   <Job
+    achievements={
+      Array [
+        "Hired, trained and mentored the front-end team.",
+        "Improved the platform performances.",
+      ]
+    }
     company="LifeWorks"
-    description="In addition to front-end development,
-      I performed hiring, training, and mentoring
-      for the front-end team. I was also involved in project
-      development and oversight and have helped to improve the
-      operating platform."
+    description={null}
     end_date="December 2017"
-    key="1"
+    key="3"
     location="London, UK"
     position="Lead Front-End Engineer"
+    print_margin={true}
     start_date="July 2016"
-    tech_stack={null}
   />
   <Job
+    achievements={
+      Array [
+        "Built new features in React.",
+        "Refactored features from AngularJS to React.",
+      ]
+    }
     company="LifeWorks"
-    description="LifeWorks: A Global Employee Engagement
-      Platform serving 50,000 companies with over 15 million users."
+    description={null}
     end_date="July 2016"
-    key="2"
+    key="4"
     location="London, UK"
     position="Front-End Engineer"
     start_date="July 2015"
-    tech_stack="JavaScript, React, AngularJS, HTML, CSS, Sass,
-      Redux, Flow, Node.js, Webpack, Gulp, NPM, Clojure, ClojureScript,
-      Jenkins, Vagrant"
   />
   <Job
+    achievements={
+      Array [
+        "Built more than a 100 micro websites.",
+      ]
+    }
     company="Vanilla Active"
     description="Vanilla Active is a digital agency offering services to
-      agencies and brands. We designed and implemented promotional web
-      sites directly with brands and worked closely with advertising
-      and marketing agencies."
+      agencies and brands."
     end_date="July 2015"
-    key="3"
+    key="5"
     location="London, UK"
     position="Senior Web Developer"
-    print_margin={true}
     start_date="May 2012"
-    tech_stack="HTML, CSS, JavaScript, AngularJS, ColdFusion, PHP, Wordpress"
   />
   <Job
-    company="Wild Media Ltd"
-    description="Wild Media Ltd is a startup in the new
-      media area. As an Excel expert and
-      database manager, I was in charge of optimising
-      and automating the logistics department."
-    end_date="March 2012"
-    key="4"
-    location="London, UK"
-    position="Excel Expert"
-    start_date="November 2011"
-    tech_stack={null}
-  />
-  <Job
-    company="De Valck Consultants by Altran"
-    description="De Valck Consultants is part of Altran group,
-      the European leader in innovation consulting.
-      It is the dedicated brand to Quality Assurance
-      for the Life Science industry. I worked as an
-      IS Validation Engineer at Baxter Healthcare."
-    end_date="November 2011"
-    key="5"
-    location="Brussels, Belgium"
-    position="Consultant"
-    start_date="July 2011"
-    tech_stack={null}
-  />
-  <Job
+    achievements={
+      Array [
+        "Worked on a website used by doctors worldwide.",
+        "Learned about validation of computer systems.",
+      ]
+    }
     company="Jules Bordet Institute"
-    description="The BrEAST data centre is a specialised clinical
-      trials unit created in order to conduct large,
-      international Phase III studies in breast cancer
-      aiming to register new drugs. I worked as a web
-      and application developer, in IT support and
-      maintenance, and in validation of computer systems
-      developed in-house (GCP, 21 CRF part 11)."
+    description="The BrEAST data centre is a clinical trials unit 
+      conducting international studies in breast cancer research."
     end_date="June 2011"
     key="6"
-    location="Brussels, Belgium"
+    location="Brussels, BE"
     position="Web Developer"
     start_date="December 2008"
-    tech_stack="HTML, CSS, JavaScript, PHP, Java, Oracle SQL, MySQL"
   />
 </div>
 `;

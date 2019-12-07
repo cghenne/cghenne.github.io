@@ -14,7 +14,7 @@ exports[`Header should render without crashing 1`] = `
     <span
       className="secondary"
     >
-      Front-End
+      JavaScript
     </span>
      Engineer
   </h2>

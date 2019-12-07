@@ -13,8 +13,8 @@ exports[`Skills should render without crashing 1`] = `
     list={
       Array [
         "JavaScript ES6/ES7",
-        "CSS3/Sass",
-        "HTML5",
+        "CSS/SASS",
+        "HTML",
       ]
     }
     type="languages"
@@ -26,11 +26,12 @@ exports[`Skills should render without crashing 1`] = `
       Array [
         "React",
         "Redux",
-        "Jest",
-        "Flow",
         "Node.js",
         "Express",
-        "AngularJS 1.x",
+        "Sequelize",
+        "Jest",
+        "Enzyme",
+        "Flow",
       ]
     }
     type="frameworks-libraries"
@@ -41,9 +42,9 @@ exports[`Skills should render without crashing 1`] = `
     list={
       Array [
         "Webpack",
-        "NPM",
-        "Gulp",
+        "NPM/Yarn",
         "Travis CI",
+        "CircleCI",
       ]
     }
     type="tools"
@@ -53,6 +54,7 @@ exports[`Skills should render without crashing 1`] = `
     label="Databases"
     list={
       Array [
+        "PostgreSQL",
         "MongoDB",
         "MySQL",
       ]
@@ -67,11 +69,7 @@ exports[`Skills should render without crashing 1`] = `
         "Git",
         "Jira",
         "Agile workflows",
-        "Single Page Application",
-        "Responsive Web Design",
-        "Mobile First Design",
-        "Cross-Browser Compatibility",
-        "Accessiblity",
+        "AWS",
       ]
     }
     type="other"

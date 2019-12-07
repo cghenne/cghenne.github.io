@@ -12,6 +12,7 @@ exports[`App should render without crashing 1`] = `
   <Experience />
   <Skills />
   <Education />
+  <Volunteering />
   <Languages />
   <Interests />
   <References />

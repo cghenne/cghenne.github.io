@@ -7,11 +7,10 @@ const Hello = () => {
     <div className="box hello">
       <h3>Hello</h3>
       <p>
-        I am a dynamic and capable front end engineer with multiple years of
-        experience in development and support of applications and websites. I
-        also have experience hiring, training, and mentoring teams. My preferred
-        framework is React and I am currently learning about functional
-        programming and Clojure.
+        I am a dynamic and capable JavaScript engineer with multiple years of
+        experience in development and maintenance of websites. I also have
+        experience hiring, training and mentoring teams. My preferred framework
+        is React and I am currently learning about functional programming.
       </p>
     </div>
   );

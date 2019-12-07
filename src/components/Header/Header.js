@@ -9,7 +9,7 @@ const Header = () => {
         <span className="secondary">Cathleen</span> Ghenne
       </h1>
       <h2>
-        <span className="secondary">Front-End</span> Engineer
+        <span className="secondary">JavaScript</span> Engineer
       </h2>
     </header>
   );
