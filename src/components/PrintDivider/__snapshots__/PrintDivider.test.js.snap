@@ -36,11 +36,6 @@ exports[`PrintDivider should render without crashing 1`] = `
     </span>
      Ghenne
   </div>
-  <div
-    className="title-repeat"
-  >
-    Experience
-  </div>
   <svg
     className="triangle"
     height="34"

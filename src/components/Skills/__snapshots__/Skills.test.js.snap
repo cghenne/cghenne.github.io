@@ -26,11 +26,11 @@ exports[`Skills should render without crashing 1`] = `
       Array [
         "React",
         "Redux",
+        "React Native",
         "Node.js",
         "Express",
         "Sequelize",
         "Jest",
-        "Enzyme",
         "Flow",
       ]
     }
