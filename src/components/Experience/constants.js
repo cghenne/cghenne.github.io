@@ -1,7 +1,16 @@
 export const jobs = [
   {
-    start_date: 'April 2019',
+    start_date: 'September 2019',
     end_date: null,
+    position: 'Engineering Manager',
+    company: 'ACV Auctions',
+    location: 'Toronto, CA',
+    description: `ACV Auctions provides a mobile app and web platform that allows car dealers to quickly buy and sell wholesale vehicles through live auctions.`,
+    achievements: null
+  },
+  {
+    start_date: 'April 2019',
+    end_date: 'September 2019',
     position: 'Venture Technology Lead',
     company: 'RBC Ventures',
     location: 'Toronto, CA',
@@ -35,7 +44,8 @@ export const jobs = [
     achievements: [
       'Implemented a dashboard using clojure.',
       'Wrote lots of unit tests.'
-    ]
+    ],
+    print_margin: true
   },
   {
     start_date: 'July 2016',
@@ -47,8 +57,7 @@ export const jobs = [
     achievements: [
       'Hired, trained and mentored the front-end team.',
       'Improved the platform performances.'
-    ],
-    print_margin: true
+    ]
   },
   {
     start_date: 'July 2015',

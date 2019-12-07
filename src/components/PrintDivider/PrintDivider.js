@@ -20,7 +20,7 @@ const PrintDivider = () => {
       <div className="name-repeat">
         <span className="secondary">Cathleen</span> Ghenne
       </div>
-      <div className="title-repeat">Experience</div>
+      {/* <div className="title-repeat">Experience</div> */}
       <svg height="34" width="20" className="triangle">
         <polygon points="10,21 20,34 0,34" className="triangle-up" />
       </svg>

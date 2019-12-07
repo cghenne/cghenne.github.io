@@ -10,11 +10,11 @@ export const skills = [
     list: [
       'React',
       'Redux',
+      'React Native',
       'Node.js',
       'Express',
       'Sequelize',
       'Jest',
-      'Enzyme',
       'Flow'
     ]
   },
