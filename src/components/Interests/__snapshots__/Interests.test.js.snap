@@ -15,13 +15,13 @@ exports[`Interests should render without crashing 1`] = `
       type="sports"
     />
     <Interest
-      description="Piano, Guitar"
+      description="Piano, guitar"
       key="Music"
       label="Music"
       type="Music"
     />
     <Interest
-      description="Travelling"
+      description="Travelling, painting"
       key="other"
       label="Other"
       type="other"

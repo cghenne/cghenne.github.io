@@ -12,7 +12,7 @@ exports[`Skills should render without crashing 1`] = `
     label="Languages"
     list={
       Array [
-        "JavaScript ES6/ES7",
+        "JavaScript ESNext",
         "CSS/SASS",
         "HTML",
       ]
