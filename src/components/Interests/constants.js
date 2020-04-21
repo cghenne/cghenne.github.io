@@ -7,12 +7,12 @@ export const interests = [
   {
     type: 'Music',
     label: 'Music',
-    description: 'Piano, Guitar'
+    description: 'Piano, guitar'
   },
   {
     type: 'other',
     label: 'Other',
-    description: 'Travelling'
+    description: 'Travelling, painting'
   }
 ];
 

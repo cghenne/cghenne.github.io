@@ -2,7 +2,7 @@ export const skills = [
   {
     type: 'languages',
     label: 'Languages',
-    list: ['JavaScript ES6/ES7', 'CSS/SASS', 'HTML']
+    list: ['JavaScript ESNext', 'CSS/SASS', 'HTML']
   },
   {
     type: 'frameworks-libraries',
